@@ -609,12 +609,6 @@ nav.main-menu > ul li:last-child {
   float: right;
 }
 
-.site-logo {
-  float: left;
-  max-width: 70px;
-  margin-top: -25px;
-}
-
 ul.sub-menu li:last-child {
   float: none !important;
 }
@@ -671,8 +665,25 @@ nav.mean-nav > ul > li:first-child > a {
   padding: 10px;
 }
 
+
 .site-logo {
-  padding: 6px 0;
+  float: left !important;
+  max-width: 5% !important;
+  margin-top: -20px !important;
+  padding: 6px 0 !important;
+}
+
+.site-logo img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .site-logo {
+    max-width: 10% !important;
+    margin-top: -10 !important;
+  }
 }
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
