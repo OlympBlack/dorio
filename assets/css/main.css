@@ -681,8 +681,8 @@ nav.mean-nav > ul > li:first-child > a {
 
 @media (max-width: 768px) {
   .site-logo {
-    max-width: 10% !important;
-    margin-top: 0 !important;
+    max-width: 12% !important;
+    margin-top: -5px !important;
   }
 }
 
